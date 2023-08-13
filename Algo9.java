@@ -9,7 +9,6 @@ public class Algo9 {
             userInput = scanner.nextLine() ;
             if(userInput.strip().indexOf(' ')<0) break ;
         } while (true );
-        char[] charVariable = userInput.toCharArray(); 
         int k = 0 ;
         for(int i = userInput.length() - 1 ; i > 0 ; i-- ){
             if(i<=k){
